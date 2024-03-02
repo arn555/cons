@@ -32,7 +32,7 @@ a:hover,a:focus{ text-decoration: none}
 
 /*Preloader css*/
 #loading{
-    background-color: #ffcb0f;
+    background-color: #0C469C;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -128,23 +128,9 @@ a:hover,a:focus{ text-decoration: none}
 
 /*End off Preloader*/
 
-
-/* Overwrite Code - 3/2/24 */
-
-/* FrontPage */
-.carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    left: 13%;
-}
-
-
-
-
 /* Top Nav */
 .top_nav {
-    background: #ffcb0f none repeat scroll 0 0;
+    background: #0C469C none repeat scroll 0 0;
     overflow: hidden;
     padding: 10px 0;
 }
@@ -162,7 +148,7 @@ a:hover,a:focus{ text-decoration: none}
     font-family: 'futura_ltbook', sans-serif;
 }
 .list-inline.info a:hover,.list-inline.social_icon a:hover {
-    color: #555;
+    color: #fff;
 }
 .list-inline.info a .fa,.list-inline.social_icon  a .fa {
     font-size: 20px;
@@ -208,11 +194,11 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     margin: 5px -10px 0 0;
 }
 .attr-nav > ul > li > a {
-    color: #ffcb0f;
+    color: #0C469C;
     font-size: 20px;
 }
 .attr-nav > ul > li > a:hover,.attr-nav > ul > li > a:focus {
-    color: #d7a300;
+    color: #0C469C;
 }
 /* Carousel */
 .home .carousel {
@@ -246,9 +232,10 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     margin-bottom:20px;
 }
 .carousel-caption h1.second_heading {
-    color:#ffcb0f;
+    color:#4c8ae7;
     margin-bottom:35px;
 }
+/* #ffcb0f */
 .carousel-caption > h3 {
     color: #fff;
     font-family: "futura_ltbook",sans-serif;
@@ -303,7 +290,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 .about_content > h2 {
     font-size: 40px;
     margin: 90px 0 15px;
-    color:#ffcb0f;
+    /* color:#ffcb0f; */
 }
 .about_content > h3 {
     font-size: 30px;
@@ -318,9 +305,10 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 .about_content .btn.know_btn {
     margin: 18px 0 60px;
 }
-.about_bg {
+
+/* .about_bg {
     background: url(../images/about_bg.png)no-repeat right;
-}
+} */
 
 /*Head Title*/
 .head_title p{
@@ -339,7 +327,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 .why_us_item{ padding-top: 55px;}
 #why_us .fa{
     border-radius: 100%;
-    box-shadow: 0 0 0 10px #ffcb0f, 0 0 0 20px #fadb64, 0 0 0 30px #f7e59c;
+    box-shadow: 0 0 0 10px #3893FF, 0 0 0 20px #55A9FF, 0 0 0 30px #72C0FF;
     padding: 38px;
     font-size:45px;
 }
@@ -362,24 +350,24 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 
 /* Portfolio */
 #portfolio {
-    background: rgba(0, 0, 0, 0) url("../images/portfolio_bg.jpg") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("../images/slider_img3.jpg") no-repeat scroll 0 0;
     background-size:cover;
     position:relative;
     padding-bottom: 102px;
-    border-bottom:2px solid #ffcb0f;
+    /* border-bottom:2px solid #ffcb0f; */
 }
 #portfolio::before{
     position:absolute;
     content:"";
     height:100%;
     width:100%;
-    background: rgba(255,203,15,0.85);
+    background: rgba(255, 255, 255, 0.7);
     top:0;
     left:0;
 }
-.portfolio_area{ position:relative;color:#fff;}
+.portfolio_area{ position:relative;color:#000;}
 .portfolio_area h2 {
-    color: #fff;
+    color: #000;
     margin: 65px 0 34px;
 }
 /* Portfolio filters */
@@ -401,6 +389,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 #filters > button.is-checked {
     background: #282828;
+    color: #fff;
 }
 #filters > button.is-checked:hover {
     color: #fff;
@@ -440,7 +429,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 .grid-item:hover .portfolio_hover_area {opacity: 1;}
 .portfolio_hover_area .fa {
-    background: #ffcb0f none repeat scroll 0 0;
+    background: #0C469C none repeat scroll 0 0;
     border: 2px solid transparent;
     border-radius: 5px;
     border-radius: 5px;
@@ -460,9 +449,9 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 .portfolio_hover_area > a:first-child{  margin-right: 10px;}
 .portfolio_hover_area .fa:hover{
-    border:1px solid #ffcb0f;
+    border:1px solid #0C469C;
     background:transparent;
-    color:#ffcb0f;
+    color:#fff;
 }
 
 /* Testimonial */
@@ -551,12 +540,12 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 
 /* Contact form */
 #contact_form {
-    background: #fedb5d none repeat scroll 0 0;
+    background: #0C469C none repeat scroll 0 0;
     padding:27px 0 32px;
 }
 #contact_form h2 {
     margin: 20px 0 0;
-    color:#73757e;
+    color:#fff;
 }
 #contact_form .second_heading {
     font-size: 40px;
@@ -604,7 +593,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 
 /* Footer */
 footer {
-    background: url(../images/footer_bg.jpg)no-repeat;
+    /* background: url(../images/footer_bg.jpg)no-repeat; */
     background-size:cover;
     position:relative;
     padding-top:45px;
@@ -712,7 +701,7 @@ footer::after {
     overflow: hidden;
 }
 .footer_bottom {
-    background: #1a1c27 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     padding: 28px 0 18px;
     margin-top:55px;
 }
@@ -724,7 +713,7 @@ footer::after {
 }
 /* ScrollUP */
 #scrollUp {
-    background: url(../images/top.png)no-repeat scroll 0 0;
+    background: url(../images/top_2.png)no-repeat scroll 0 0;
     bottom: 20px;
     color: #000;
     height: 40px;
@@ -733,7 +722,7 @@ footer::after {
     opacity:0.7;
 }
 #scrollUp:hover {
-    background: url(../images/top.png)no-repeat scroll 0 -40px;
+    background: url(../images/top_2.png)no-repeat scroll 0 -40px;
 }
 
 /* Responsive Styles for various devices */
@@ -993,4 +982,42 @@ footer::after {
     }
 
 
+}
+
+
+/* Overwrite Code - 3/2/24 */
+
+/* FrontPage */
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    left: 13%;
+}
+
+.first-word {
+    font-weight: bold;
+    font-size: 3em; /* Adjust the font size as needed */
+}
+
+.first-paragraph{
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 1.8px;
+}
+
+.welcome-text{
+    font-size: 18px;
+}
+
+.about_bg{
+    padding-bottom: 50px;
+}
+
+.mission-text{
+    font-size: 16px;
+}
+
+.footer_bottom{
+    color: #000 !important; 
 }
